@@ -18,7 +18,7 @@ const Product = db.define("product",{
         allowNull: false,
         validate:{
             notEmpty: true,
-            length: [3, 100],
+            len: [3, 100],
         },
     },
     price : {
